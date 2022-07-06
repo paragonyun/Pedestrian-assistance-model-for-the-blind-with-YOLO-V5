@@ -1,6 +1,7 @@
 # 시각장애인의 안전한 보행을 위한 보행 보조 모델(Pedestrian Assistance Model for THE BLIND with YOLO V5)  
 ## 주요 파라미터 (Main Parameters)  
-* Epoch : 10 Epoch 학습 시간이 오래 걸리고 어려운 데이터가 아니라서 10Epoch 정도면 충분했습니다. (It takes long time to train and also it was not hard to train! So I think 10Epoch is enough)  
+* Epoch : 10 Epoch   
+학습 시간이 오래 걸리고 어려운 데이터가 아니라서 10Epoch 정도면 충분했습니다. (It takes long time to train and also it was not hard to train! So I think 10Epoch is enough)  
 * Batch Size : 64  
 * Image Size : 640 YoloV5s에 권장되는 Image Size (The Image Size Recommended for YoloV5s)
   
