@@ -38,3 +38,18 @@ Train Epoch 1
 ![train_epoch7](https://user-images.githubusercontent.com/83996346/177499885-182a3f2a-420d-4d43-8905-86a2da848c98.png)  
 Train Epoch 7  
 
+#### Inference Result
+![1](https://user-images.githubusercontent.com/83996346/177501350-17fc12fd-faa3-4bdb-97e6-78b53cbb628e.png)
+![2](https://user-images.githubusercontent.com/83996346/177501338-5dd314cc-b783-4f4d-9e0d-3ac7cb267f7e.png)
+![error](https://user-images.githubusercontent.com/83996346/177501352-bb268247-2135-402b-ba7d-f58caafcd928.png) 
+전반적으로 학습이 잘 진행된 모습이지만 줄무늬 옷을 횡단보도로 인식하는 등, 아직 개선사항이 있어 보였습니다.  
+It performed pretty well... but Sometimes it inferernce stripe T-shirt as a Zebra-Cross..! It seems to need more train 
+
+# 개선 사항 (Improvement Elements)
+1. 보행에 장애가 될만한 더 많은 Class를 학습시킬 예정입니다.
+2. 좀 더 빠른 학습을 할 수 있도록 대책을 강구할 예정입니다. 
+3. 버스 시각 정보와 연계하여, 탐지한 대상이 버스인 경우 OCR을 이용하여 번호를 알려주는 서비스로 확대할 예정입니다.
+
+1. I'm planning to teach more classes that can interfere with walking.
+2. I will take measures to learn faster.
+3. I will expand the service to provide the number if the target is a Bus using OCR
