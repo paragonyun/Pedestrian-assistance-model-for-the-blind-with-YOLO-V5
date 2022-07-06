@@ -46,10 +46,9 @@ Train Epoch 7
 It performed pretty well... but Sometimes it inferernce stripe T-shirt as a Zebra-Cross..! It seems to need more train 
 
 # 개선 사항 (Improvement Elements)
-1. 보행에 장애가 될만한 더 많은 Class를 학습시킬 예정입니다.
-2. 좀 더 빠른 학습을 할 수 있도록 대책을 강구할 예정입니다. 
-3. 버스 시각 정보와 연계하여, 탐지한 대상이 버스인 경우 OCR을 이용하여 번호를 알려주는 서비스로 확대할 예정입니다.
-  
-1. I'm planning to teach more classes that can interfere with walking.
-2. I will take measures to learn faster.
-3. I will expand the service to provide the number if the target is a Bus using OCR
+1. 보행에 장애가 될만한 더 많은 Class를 학습시킬 예정입니다.  
+   I'm planning to teach more classes that can interfere with walking.
+2. 좀 더 빠른 학습을 할 수 있도록 대책을 강구할 예정입니다.   
+   I will take measures to learn faster.
+3. 버스 시각 정보와 연계하여, 탐지한 대상이 버스인 경우 OCR을 이용하여 번호를 알려주는 서비스로 확대할 예정입니다.  
+   I will expand the service to provide the number if the target is a Bus using OCR 
